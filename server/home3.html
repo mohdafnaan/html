@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Afnaan | Resume</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen p-4 flex justify-center">
+
+  <!-- Resume Wrapper -->
+  <div class="bg-white max-w-5xl w-full rounded-2xl shadow-2xl overflow-hidden">
+
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-8">
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <img
+          src="/register.jpg"
+          alt="Profile Photo"
+          class="w-28 h-28 rounded-full border-4 border-white object-cover shadow-lg"
+        />
+
+        <div class="text-center md:text-left">
+          <h1 class="text-3xl font-bold tracking-wide">Mohammed Afnaan</h1>
+          <p class="text-blue-100 mt-1">
+            B.Tech Computer Science | 2nd Year Student
+          </p>
+
+          <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm mt-4">
+            <span class="flex items-center gap-1">
+              <i data-feather="mail"></i>
+              mohdafnaan833@gmail.com
+            </span>
+            <span class="flex items-center gap-1">
+              <i data-feather="phone"></i>
+              +91 95759 503729
+            </span>
+            <span class="flex items-center gap-1">
+              <i data-feather="map-pin"></i>
+              Hyderabad, India
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-8">
+
+      <!-- Left Column -->
+      <aside class="md:col-span-1 space-y-6">
+
+        <!-- Profile -->
+        <div>
+          <h2 class="text-lg font-semibold text-indigo-600 mb-2">Profile</h2>
+          <p class="text-gray-700 text-sm leading-relaxed">
+            Passionate Computer Science student focused on building real-world
+            applications using modern web technologies. Always eager to learn
+            and grow as a developer.
+          </p>
+        </div>
+
+        <!-- Skills -->
+        <div>
+          <h2 class="text-lg font-semibold text-indigo-600 mb-2">Skills</h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Tailwind CSS</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">MongoDB</span>
+          </div>
+        </div>
+
+        <!-- Hobbies -->
+        <div>
+          <h2 class="text-lg font-semibold text-indigo-600 mb-2">Hobbies</h2>
+          <ul class="text-gray-700 text-sm space-y-1">
+            <li>🎮 Playing games</li>
+            <li>🍽 Eating biryani</li>
+            <li>🔥 Playing BGMI</li>
+            <li>🪁 Kite flying</li>
+          </ul>
+        </div>
+
+      </aside>
+
+      <!-- Right Column -->
+      <main class="md:col-span-2 space-y-6">
+
+        <!-- Education -->
+        <section>
+          <h2 class="text-lg font-semibold text-indigo-600 mb-3">
+            Education
+          </h2>
+          <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-indigo-600">
+            <h3 class="font-semibold">Bachelor of Technology (B.Tech)</h3>
+            <p class="text-sm text-gray-600">
+              Computer Science Engineering • 2nd Year
+            </p>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section>
+          <h2 class="text-lg font-semibold text-indigo-600 mb-3">
+            Projects
+          </h2>
+
+          <div class="space-y-4">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h3 class="font-semibold">Blog Application</h3>
+              <p class="text-sm text-gray-600">
+                Built using Express.js & MongoDB with full CRUD functionality.
+              </p>
+            </div>
+
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h3 class="font-semibold">Food Delivery System</h3>
+              <p class="text-sm text-gray-600">
+                Designed schemas for users, restaurants, riders, and orders with
+                complete order flow.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Favorite Food -->
+        <section>
+          <h2 class="text-lg font-semibold text-indigo-600 mb-3">
+            Favorite Food
+          </h2>
+          <ul class="list-disc list-inside text-gray-700 text-sm">
+            <li>Tahari</li>
+            <li>Biryani</li>
+            <li>Pasta</li>
+          </ul>
+        </section>
+
+        <!-- Declaration -->
+        <section class="border-t pt-4">
+          <p class="text-sm text-gray-600">
+            I hereby declare that the information provided above is true and
+            correct to the best of my knowledge.
+          </p>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- Tailwind utility for skill pills -->
+  <style>
+    .skill {
+      @apply bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium;
+    }
+  </style>
+
+  <script>
+    feather.replace();
+  </script>
+
+</body>
+</html>
